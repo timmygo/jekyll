@@ -14,13 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Blog on Render
+author: timmygo
 # email: timmygo@users.noreply.github.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jekyll.onrender.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: timmygo
-# github_username:  timmygo
+github_username:  timmygo
 permalink: /:categories/:year/:month/:day/:title
 
 # Build settings
